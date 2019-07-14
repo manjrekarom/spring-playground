@@ -15,20 +15,29 @@ public class TreePlantationApplication {
 //		Tree tree = (Tree) context.getBean("flowerTree");
 //		System.out.println(tree.getProduce());
 //		System.out.println(((FlowerTree)tree).getName());
+//
+//		Engine engine = (Engine) context.getBean("marutiEngine");
+//		System.out.println(engine);
+//
+//		Transmission transmission = (Transmission) context.getBean("marutiTransmission");
+//		System.out.println(transmission);
+//
+//		Engine engine2 = (Engine) context.getBean("hondaEngine");
+//		System.out.println(engine2);
+//
+//		Transmission transmission2 = (Transmission) context.getBean("hondaTransmission");
+//		System.out.println(transmission2);
+//
+//		Car car = (Car) context.getBean("car");
+//		System.out.println(car);
+//
+//		Car marutiCar = (Car) context.getBean("maruti");
+//		System.out.println(marutiCar);
+//
+//		Car hondaCar = (Car) context.getBean("jazz");
+//		System.out.println(hondaCar);
 
-		Engine engine = (Engine) context.getBean("marutiEngine");
+		Engine engine = (Engine) context.getBean(Engine.class);
 		System.out.println(engine);
-
-		Transmission transmission = (Transmission) context.getBean("marutiTransmission");
-		System.out.println(transmission);
-
-		Engine engine2 = (Engine) context.getBean("hondaEngine");
-		System.out.println(engine2);
-
-		Transmission transmission2 = (Transmission) context.getBean("hondaTransmission");
-		System.out.println(transmission2);
-
-		Car car = (Car) context.getBean("car");
-		System.out.println(car);
 	}
 }

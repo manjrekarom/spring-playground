@@ -7,30 +7,39 @@
 <!--    <bean id="tree" class="com.eyantra.treeplantation.model.FruitTree">-->
 <!--        <property name="name" value="First Tree :D"></property>-->
 <!--    </bean>-->
-    <bean id="marutiEngine" class="com.eyantra.treeplantation.model.Engine" scope="singleton">
-        <constructor-arg index="0" value="Maruti"></constructor-arg>
-        <constructor-arg index="1" value="3"></constructor-arg>
-    </bean>
+<!--    <bean id="marutiEngine" class="com.eyantra.treeplantation.model.Engine" scope="singleton">-->
+<!--        <constructor-arg index="0" value="Maruti"></constructor-arg>-->
+<!--        <constructor-arg index="1" value="3"></constructor-arg>-->
+<!--    </bean>-->
 
-    <bean id="marutiTransmission" class="com.eyantra.treeplantation.model.Transmission" scope="singleton">
-        <constructor-arg index="0" value="Manual"></constructor-arg>
-    </bean>
+<!--    <bean id="marutiTransmission" class="com.eyantra.treeplantation.model.Transmission" scope="singleton">-->
+<!--        <constructor-arg index="0" value="Manual"></constructor-arg>-->
+<!--    </bean>-->
 
-    <bean id="hondaEngine" class="com.eyantra.treeplantation.model.Engine" scope="singleton">
-        <constructor-arg index="0" value="Honda"></constructor-arg>
-        <constructor-arg index="1" value="5"></constructor-arg>
-    </bean>
+<!--    <bean id="hondaEngine" class="com.eyantra.treeplantation.model.Engine" scope="singleton">-->
+<!--        <constructor-arg index="0" value="Honda"></constructor-arg>-->
+<!--        <constructor-arg index="1" value="5"></constructor-arg>-->
+<!--    </bean>-->
 
-    <bean id="hondaTransmission" class="com.eyantra.treeplantation.model.Transmission">
-        <constructor-arg index="0" value="AMT"></constructor-arg>
-    </bean>
+<!--    <bean id="hondaTransmission" class="com.eyantra.treeplantation.model.Transmission">-->
+<!--        <constructor-arg index="0" value="AMT"></constructor-arg>-->
+<!--    </bean>-->
 
-    <bean id="genericEngine" class="com.eyantra.treeplantation.model.Engine" scope="singleton">
-        <constructor-arg index="0" value="IC"></constructor-arg>
-        <constructor-arg index="1" value="5"></constructor-arg>
-    </bean>
+<!--    <bean id="genericEngine" class="com.eyantra.treeplantation.model.Engine" scope="singleton">-->
+<!--        <constructor-arg index="0" value="IC"></constructor-arg>-->
+<!--        <constructor-arg index="1" value="5"></constructor-arg>-->
+<!--    </bean>-->
 
-    <bean id="genericTransmission" class="com.eyantra.treeplantation.model.Transmission">
-        <constructor-arg index="0" value="Gear"></constructor-arg>
+<!--    <bean id="genericTransmission" class="com.eyantra.treeplantation.model.Transmission">-->
+<!--        <constructor-arg index="0" value="Gear"></constructor-arg>-->
+<!--    </bean>-->
+
+<!--    <bean id="engine" class="com.eyantra.treeplantation.model.Engine" scope="singleton">-->
+<!--        <constructor-arg index="0" value="Engine"></constructor-arg>-->
+<!--        <constructor-arg index="1" value="Version"></constructor-arg>-->
+<!--    </bean>-->
+
+    <bean id="transmission" class="com.eyantra.treeplantation.model.Transmission">
+        <constructor-arg index="0" value="Transmission"></constructor-arg>
     </bean>
 </beans>

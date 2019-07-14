@@ -11,8 +11,14 @@ public class Car implements Vehicle {
 
     private Transmission transmission;
 
-    public Car(@Autowired @Qualifier("genericEngine") Engine engine,
-               @Autowired @Qualifier("genericTransmission") Transmission transmission) {
+//    public Car(@Autowired @Qualifier("genericEngine") Engine engine,
+//               @Autowired @Qualifier("genericTransmission") Transmission transmission) {
+//        this.engine = engine;
+//        this.transmission = transmission;
+//    }
+
+
+    public Car(Engine engine, Transmission transmission) {
         this.engine = engine;
         this.transmission = transmission;
     }

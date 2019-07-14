@@ -8,15 +8,15 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class CarConfig {
 
-    @Bean
-    Car maruti(@Autowired @Qualifier("marutiEngine") Engine engine,
-               @Autowired @Qualifier("marutiTransmission") Transmission transmission) {
-        return new Car(engine, transmission);
-    }
-
-    @Bean
-    Car jazz(@Autowired @Qualifier("hondaEngine") Engine engine,
-             @Autowired @Qualifier("hondaTransmission") Transmission transmission) {
-        return new Car(engine, transmission);
-    }
+//    @Bean
+//    Car maruti(@Autowired @Qualifier("marutiEngine") Engine engine,
+//               @Autowired @Qualifier("marutiTransmission") Transmission transmission) {
+//        return new Car(engine, transmission);
+//    }
+//
+//    @Bean
+//    Car jazz(@Autowired @Qualifier("hondaEngine") Engine engine,
+//             @Autowired @Qualifier("hondaTransmission") Transmission transmission) {
+//        return new Car(engine, transmission);
+//    }
 }

@@ -3,7 +3,7 @@ package com.eyantra.treeplantation.model;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component(value = "engine3")
+@Component
 public class Engine {
 
     private String type;
